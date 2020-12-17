@@ -1,6 +1,6 @@
 <?php
 
-$manager = new MongoDB\Driver\Manager('mongodb+srv://jordi:jordi123@cursnosql.saj8u.mongodb.net/admin?retryWrites=true&w=majority');
+$manager = new MongoDB\Driver\Manager('mongodb+srv://<usuari>:<contrasenya>@cursnosql.saj8u.mongodb.net/admin?retryWrites=true&w=majority');
 
 $filter = ['year' => ['$lte' => 1893]];
 
